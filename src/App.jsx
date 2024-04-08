@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import BestFitTileArrangement from './BestFitTileArrangement';
 
 function App() {
-  const [numTiles, setNumTiles] = useState(22);
+  const [numTiles, setNumTiles] = useState(20);
   const [containerWidth, setContainerWidth] = useState(800);
   const [containerHeight, setContainerHeight] = useState(500); // Set this to an appropriate value
 
